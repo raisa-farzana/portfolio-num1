@@ -32,7 +32,11 @@
     text-align: center;
     
 }
-
+.section-title-f{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
 .section-description{
     font-size: 18px;
     color: #757575;
@@ -163,4 +167,35 @@ main section{
     margin: 30px 10px 30px 0 ;
     border-top: 1px solid #D1D1D1;
 
+}
+.resume .btn{
+   text-align: center;
+   margin-top: 50px;
+
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 24px;
+    border: none;
+    padding: 10px 20px ;
+}
+footer p{
+    color: #474747;
+    font-size: 16px;
+      
 }
